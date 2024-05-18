@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import path from "path";
 const __dirname = path.resolve();
 
-mongoose.connect("mongodb+srv://vaibhav:Vaib4mongodb@cluster0.reflvjg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{          // connecting to database
+mongoose.connect("",{          // connecting to database
     dbName:"sps",
   
 })

@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import path from "path";
 const __dirname = path.resolve();
 
-mongoose.connect("",{          // connecting to database
+mongoose.connect("mondodb link",{          // connecting to database
     dbName:"sps",
   
 })
